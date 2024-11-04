@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEADERBOARD</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>🏆LEADERBOARD🏆</h1>
+    
+    <div class="player-input">
+      <input type="text" id="playerName" placeholder="Player Name" required>
+      <input type="number" id="startingScore" placeholder="Starting Score" required>
+      <button class="addScore" id="AddScore">Add Score</button>
+    </div>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Player Name</th>
+          <th>Score</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="playerTable">
+        <!-- Player rows will go here -->
+      </tbody>
+    </table>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

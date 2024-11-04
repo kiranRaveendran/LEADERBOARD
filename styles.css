@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    background-color: rgba(6, 85, 189, 0.776);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  h1{
+    font-size: 3em;
+    color: white;
+  }
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 3em;
+  }
+  .addScore{
+    background-color:rgba(209, 224, 249, 0.8);
+    border: 1px solid white;
+  }
+  .player-input, table {
+    margin: 20px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
