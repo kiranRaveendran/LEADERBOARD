@@ -12,7 +12,7 @@ function addPlayer() {
     document.getElementById("playerName").value = '';
     document.getElementById("startingScore").value = '';
   } else {
-    alert("Please enter valid player details.");
+    alert("Please enter valid name details.");
   }
 }
 
